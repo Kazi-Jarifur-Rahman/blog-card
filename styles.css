@@ -1,0 +1,85 @@
+body {
+    font-family: 'Manrope', sans-serif;
+    margin: 0;
+    background-color: hsl(47, 88%, 63%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog-card {
+    background-color: hsl(0, 0%, 100%);
+    width: 300px;
+    border-radius: 10px;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1); 
+}
+
+
+.blog-card img {
+    width: calc(100% - 20px); 
+    height: 180px;
+    border-radius: 25px;
+    margin: 10px;
+    object-fit: cover;
+}
+
+.Text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 0 15px;
+}
+
+
+.Text .L {
+    background-color: hsl(47, 88%, 63%);
+    color: hsl(212, 27%, 19%);
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+
+.Text h6 {
+    font-size: 12px;
+    color: hsl(211, 10%, 45%);
+    margin-top: 6px;
+    margin-bottom: 1px;
+    font-weight: 700;
+}
+
+
+.Text h1 {
+    font-size: 22px;
+    color: hsl(212, 27%, 19%);
+}
+
+
+.Text p {
+    font-size: 14px;
+    color: hsl(211, 10%, 45%);
+    margin: 0;
+}
+
+
+.footer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: auto; 
+    margin-bottom: 15px;
+}
+
+.footer img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
